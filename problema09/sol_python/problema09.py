@@ -19,4 +19,4 @@ while (contador <= opcion):
 
     contador = contador + 1
 
-print("S1 = " + mensaje + "\n")
+print("S1 = " + mensaje + "\n") 

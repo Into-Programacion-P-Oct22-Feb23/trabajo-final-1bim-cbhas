@@ -14,4 +14,4 @@ if numero % 2 == 0:
          print("Su número es menor a 2, por lo tanto no se puede realizar la operación")
     
 else:
-    print("Tu número no es par")
+    print("Tu número no es par") 

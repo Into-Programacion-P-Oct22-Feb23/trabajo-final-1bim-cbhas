@@ -18,6 +18,3 @@ while contador <= metros:
     
 print("Metros\tYardas\tPulgadas  Pies")
 print(mensaje)
-
-
-

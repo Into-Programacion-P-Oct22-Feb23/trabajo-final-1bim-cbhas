@@ -1,18 +1,9 @@
-
 package problema04;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-/**
- *
- * @author Alexito
- */
 public class Problema04 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
@@ -30,31 +21,27 @@ public class Problema04 {
 
         System.out.println("Ingrese el tercer  número: ");
         num3 = entrada.nextDouble();
-        
-        
 
         if (num1 == num2 || num1 == num3 || num2 == num3) {
             System.out.println("Error, los valores están repetidos");
-            
-        }else{
-            if (num1 > num2 && num1 > num3){
+
+        } else {
+            if (num1 > num2 && num1 > num3) {
                 mayor = num1;
             }
-            
-            if (num2 > num1 && num2 > num3){
+
+            if (num2 > num1 && num2 > num3) {
                 mayor = num2;
             }
-            
-            if (num3 > num1 && num3 > num2){
+
+            if (num3 > num1 && num3 > num2) {
                 mayor = num3;
             }
-            
+
             System.out.println("El número más alto, entre los tres es: "
                     + mayor);
         }
 
-       
-        
     }
-    
+
 }

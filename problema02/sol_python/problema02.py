@@ -21,7 +21,7 @@ if cantidad == 3:
 
 if cantidad > 3:
     descuento = 50
-
+ 
 descuento = (subtotal * descuento) / 100
 total = subtotal - descuento
 

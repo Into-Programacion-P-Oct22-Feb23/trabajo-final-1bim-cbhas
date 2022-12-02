@@ -1,6 +1,6 @@
 abcisa = float()
 ordenada = float()
-cuadrante = str("")
+cuadrante = str("") 
 
 abcisa = float(input("Ingrese el valor de x o de la abcisa: "))
 ordenada = float(input("Ingrese el valor de y o de la ordenada: "))

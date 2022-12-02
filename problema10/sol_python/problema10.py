@@ -14,6 +14,6 @@ while bandera:
 
     if opcion == "s":
         bandera = False
-
+ 
 media = sumaNumeros/contador
 print(f"La media de todos los números ingresados es: {media}")
