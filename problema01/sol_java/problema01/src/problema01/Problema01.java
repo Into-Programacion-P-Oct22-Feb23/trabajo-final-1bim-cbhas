@@ -17,7 +17,7 @@ public class Problema01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); 
         entrada.useLocale(Locale.US);
 
         double ladoA;

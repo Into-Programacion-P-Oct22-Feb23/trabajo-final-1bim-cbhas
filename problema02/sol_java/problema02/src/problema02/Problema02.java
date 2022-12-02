@@ -18,7 +18,7 @@ public class Problema02 {
 
         int cantidad;
         double precioU;
-        double subtotal;
+        double subtotal; 
         double descuento = 0;
         double total;
 

@@ -17,7 +17,7 @@ if cantidad == 2:
     descuento = 25
 
 if cantidad == 3:
-    descuento = 40
+    descuento = 40 
 
 if cantidad > 3:
     descuento = 50
@@ -26,4 +26,3 @@ descuento = (subtotal * descuento) / 100
 total = subtotal - descuento
 
 print(f"Subtotal:{subtotal}\nDescuento: {descuento}\nTotal:{total}\n")
-
